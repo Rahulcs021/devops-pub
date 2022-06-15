@@ -76,6 +76,7 @@ echo "PHP installation is done"
 
 echo "Installing other necessary packages"
 sudo apt-get install -y zip unzip wget vim curl git phpmyadmin
+sudo chown -R $USER:$USER /var/www/html
 
 sudo echo "<?php phpinfo(); ?>" | sudo tee /var/www/html/info.php
 echo "Please visit the URL: http://localhost/info.php to confirm"
