@@ -1,0 +1,4 @@
+Hosting:  AWS EC2, RDS(12)
+Code Scanner: sonar
+Logs: loki
+DORA metrics: Sleuth
