@@ -1,4 +1,4 @@
-# Imaportant Links
+# Important Links
 
 https://collabnix.github.io/kubetools/#cluster-management
 
